@@ -79,7 +79,8 @@ src/
 ### Searching
 - **By ID**: Select "By ID", paste task ID
 
-<img width="1915" height="1079" alt="gettaskbyidfrontend" src="https://github.com/user-attachments/assets/678cec29-97c6-46d3-a862-b5a9421ad302" />
+<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/cb4b2e1d-4404-4ec2-8ba3-a9f64d40d4fb" />
+
 
 
 
@@ -88,7 +89,8 @@ src/
 2. Fill in name, owner, and command
 3. Submit (validation runs automatically)
 
-<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/e7f38e00-646e-4bcd-a99a-ea2cccf1aa4b" />
+<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/36863f7d-29f6-4c60-b8bd-20666c157e6c" />
+
 
 
 <img width="1919" height="1077" alt="create_newtask_frontend" src="https://github.com/user-attachments/assets/1f27d68c-ae9d-4099-803a-8d6a6d2596ff" />
@@ -98,13 +100,15 @@ src/
 delete task
 1) click the delete icon
 
-<img width="1897" height="1078" alt="image" src="https://github.com/user-attachments/assets/07757990-44f0-404a-a4ee-2a5df100bcee" />
+<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/73daaa26-f7e3-4d33-96a1-d019d4620f34" />
+
 
 <img width="1919" height="1079" alt="deletetaskfrontend" src="https://github.com/user-attachments/assets/6dbd6afd-d1ad-456d-bdd0-c5ea74a416ec" />
 
 update task
 1) click the edit icon
 <img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/f5d051bc-3ed2-4a32-966b-05245084e64d" />
+<img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/f8cc4750-2ecb-492a-8737-1f9822ad28f5" />
 
 <img width="1919" height="1079" alt="editedtaskfrontend" src="https://github.com/user-attachments/assets/218b2a6c-9283-4b46-9b72-49e7ef011f85" />
 
@@ -128,6 +132,7 @@ screen automatically loads get all task
 - **By Name**: Select "By Name", type task name
 
 <img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/1b9d5f46-ab59-458e-946f-b3b9949dca70" />
+<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/c29062f0-00a8-4452-92b8-35268c29bff2" />
 
 
 
