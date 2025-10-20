@@ -44,3 +44,29 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+Finds task by id
+
+<img width="1915" height="1079" alt="gettaskbyidfrontend" src="https://github.com/user-attachments/assets/678cec29-97c6-46d3-a862-b5a9421ad302" />
+
+create new task
+<img width="1919" height="1077" alt="create_newtask_frontend" src="https://github.com/user-attachments/assets/1f27d68c-ae9d-4099-803a-8d6a6d2596ff" />
+
+delete task
+<img width="1919" height="1079" alt="deletetaskfrontend" src="https://github.com/user-attachments/assets/6dbd6afd-d1ad-456d-bdd0-c5ea74a416ec" />
+
+update task
+<img width="1919" height="1079" alt="editedtaskfrontend" src="https://github.com/user-attachments/assets/218b2a6c-9283-4b46-9b72-49e7ef011f85" />
+
+execution of task
+<img width="1919" height="1079" alt="execution_taskfrontend" src="https://github.com/user-attachments/assets/57e11ea7-852a-4589-920e-d2f4938289a8" />
+get all task
+<img width="1919" height="1079" alt="get all task frontend" src="https://github.com/user-attachments/assets/544ab922-4514-487e-8228-d3b86d63de3b" />
+
+
+get task by name
+
+<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/1b9d5f46-ab59-458e-946f-b3b9949dca70" />
+
+
+
