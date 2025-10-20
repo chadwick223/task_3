@@ -73,6 +73,12 @@ src/
 
 └── index.tsx # Entry poin
 
+<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/4989d581-3f7c-495d-a919-eac7a40414c5" />
+
+
+
+<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/3d6dc212-2cd9-430e-97a1-173844608201" />
+
 
 
 
