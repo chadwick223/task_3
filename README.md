@@ -1,70 +1,131 @@
-# Getting Started with Create React App
+# 📋 Task Manager - Frontend
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern, full-featured task management application built with React, TypeScript, and Ant Design. This application allows users to create, manage, execute, and track command-line tasks with real-time validation and execution history.
 
-## Available Scripts
+![React](https://img.shields.io/badge/React-19.0.0-blue)
+![TypeScript](https://img.shields.io/badge/TypeScript-4.x-blue)
+![Ant Design](https://img.shields.io/badge/Ant%20Design-5.27.5-1890ff)
+![Axios](https://img.shields.io/badge/Axios-1.12.2-purple)
 
-In the project directory, you can run:
 
-### `npm start`
+Core Functionality
+- ✅ **Task Management**: Create, read, update, and delete tasks
+- ✅ **Command Execution**: Execute shell commands directly from the UI
+- ✅ **Execution History**: Track all task executions with timestamps and outputs
+- ✅ **Real-time Validation**: Validate commands before execution to prevent dangerous operations
+- ✅ **Search Functionality**: Search tasks by name or ID
+- ✅ **Responsive Design**: Beautiful UI that works on all screen sizes
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Advanced Features
+- 🔍 **Dual Search**: Search by task name or task ID
+- ⚠️ **Command Validation**: Real-time validation warns users about potentially dangerous commands
+- 📊 **Execution Tracking**: View complete execution history with exit codes and error messages
+- 🎨 **Modern UI**: Built with Ant Design for a professional look and feel
+- 🔄 **Auto-refresh**: Real-time updates when tasks are modified
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+ Tech Stack
 
-### `npm test`
+| Technology | Version | Purpose |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+|------------|---------|---------|
 
-### `npm run build`
+| React | 19.0.0 | UI Framework |
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+| TypeScript | 4.x | Type Safety |
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+| Ant Design | 5.27.5 | UI Component Library |
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+| Axios | 1.12.2 | HTTP Client |
 
-### `npm run eject`
+| React Scripts | 5.0.1 | Build Tool |
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+📋 Prerequisites
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Before you begin, ensure you have the following installed:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- **Node.js**: Version 14.x or higher
+- **npm**: Version 6.x or higher (comes with Node.js)
+- **Git**: For cloning the repository
+- **Backend API**: The Spring Boot backend must be running on `http://localhost:8082`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+project structure
+src/
 
-## Learn More
+├── component/ # React components
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+│ ├── tasklist.tsx # Main list view
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+│ ├── taskcard.tsx # Task display
 
-Finds task by id
+│ ├── taskform.tsx # Create/Edit form
+
+│ └── history.tsx # Execution history
+
+├── services/ # API services
+
+│ └── taskservice.ts # All API calls
+
+├── types/ # TypeScript types
+
+│ └── task.types.ts # Type definitions
+
+├── App.tsx # Root component
+
+└── index.tsx # Entry poin
+
+
+
+
+### Searching
+- **By ID**: Select "By ID", paste task ID
 
 <img width="1915" height="1079" alt="gettaskbyidfrontend" src="https://github.com/user-attachments/assets/678cec29-97c6-46d3-a862-b5a9421ad302" />
 
-create new task
+
+
+### Creating a Task
+1. Click "Create New Task"
+2. Fill in name, owner, and command
+3. Submit (validation runs automatically)
+
+<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/e7f38e00-646e-4bcd-a99a-ea2cccf1aa4b" />
+
+
 <img width="1919" height="1077" alt="create_newtask_frontend" src="https://github.com/user-attachments/assets/1f27d68c-ae9d-4099-803a-8d6a6d2596ff" />
 
+
+
 delete task
+1) click the delete icon
+
+<img width="1897" height="1078" alt="image" src="https://github.com/user-attachments/assets/07757990-44f0-404a-a4ee-2a5df100bcee" />
+
 <img width="1919" height="1079" alt="deletetaskfrontend" src="https://github.com/user-attachments/assets/6dbd6afd-d1ad-456d-bdd0-c5ea74a416ec" />
 
 update task
+1) click the edit icon
+<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/f5d051bc-3ed2-4a32-966b-05245084e64d" />
+
 <img width="1919" height="1079" alt="editedtaskfrontend" src="https://github.com/user-attachments/assets/218b2a6c-9283-4b46-9b72-49e7ef011f85" />
 
-execution of task
+
+### Executing a Task
+1. Click green "Execute" button
+2. View results in history
+
+<img width="1918" height="1077" alt="image" src="https://github.com/user-attachments/assets/b818477e-13d8-4dad-950e-8b469027cc60" />
+
+
 <img width="1919" height="1079" alt="execution_taskfrontend" src="https://github.com/user-attachments/assets/57e11ea7-852a-4589-920e-d2f4938289a8" />
+
+
 get all task
+screen automatically loads get all task
 <img width="1919" height="1079" alt="get all task frontend" src="https://github.com/user-attachments/assets/544ab922-4514-487e-8228-d3b86d63de3b" />
 
 
-get task by name
+### Searching
+- **By Name**: Select "By Name", type task name
 
 <img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/1b9d5f46-ab59-458e-946f-b3b9949dca70" />
 
