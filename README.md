@@ -113,7 +113,7 @@ delete task
 
 update task
 1) click the edit icon
-<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/f5d051bc-3ed2-4a32-966b-05245084e64d" />
+
 <img width="1917" height="1078" alt="image" src="https://github.com/user-attachments/assets/f8cc4750-2ecb-492a-8737-1f9822ad28f5" />
 
 <img width="1919" height="1079" alt="editedtaskfrontend" src="https://github.com/user-attachments/assets/218b2a6c-9283-4b46-9b72-49e7ef011f85" />
@@ -137,7 +137,7 @@ screen automatically loads get all task
 ### Searching
 - **By Name**: Select "By Name", type task name
 
-<img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/1b9d5f46-ab59-458e-946f-b3b9949dca70" />
+
 <img width="1918" height="1078" alt="image" src="https://github.com/user-attachments/assets/c29062f0-00a8-4452-92b8-35268c29bff2" />
 
 
